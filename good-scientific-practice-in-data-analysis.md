@@ -10,7 +10,5 @@ Beyond comments, comprehensive documentation is critical for both individual and
 
 To further promote transparency and reproducibility, using tools like Conda environments ensures that the exact software dependencies are well-documented. A Conda environment can encapsulate all the required packages, versions, and system dependencies in a single configuration file. This ensures that other researchers can recreate the exact computational environment, thereby avoiding discrepancies due to differing software versions or system setups. In addition, automating the environment setup and code execution, for example, through Makefiles or scripts, allows for reproducible code execution with minimal effort.
 
-Another crucial element is version control. Platforms like Git allow researchers to track changes, share their code, and collaborate more efficiently. Within such systems, the practice of peer-reviewing code modifications is essential. By ensuring that new changes are reviewed by another team member or collaborator, errors or inefficiencies can be caught early, and the integrity of the codebase is maintained. Peer review not only improves code quality but also fosters collaboration and shared understanding of the work.
-
 In summary, good scientific practice in data analysis involves maintaining high standards of code quality, ensuring thorough documentation, and fostering reproducibility through environment management and peer review. These practices, when followed, contribute to the production of robust, transparent, and credible scientific results.
 
