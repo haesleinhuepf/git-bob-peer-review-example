@@ -1,6 +1,11 @@
 name: reviewer2 acting
 
 on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types:
+      - created
   pull_request:
     types: [opened, synchronize]
   pull_request_review_comment:
