@@ -1,15 +1,10 @@
 name: reviewer3 acting
 
 on:
-  issues:
-    types: [opened]
-  issue_comment:
+  workflow_run:
+    workflows: [ "editor acting"]
     types:
-      - created
-  pull_request:
-    types: [opened, synchronize]
-  pull_request_review_comment:
-    types: [ created ]
+      - completed  # This can be 'completed', 'success', or 'failure'
 
 jobs:
   respond:
