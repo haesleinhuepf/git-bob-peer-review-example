@@ -35,7 +35,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install git-bob>=0.6.3
+        pip install git-bob>=0.6.4
         
 
     - name: Run git-bob
