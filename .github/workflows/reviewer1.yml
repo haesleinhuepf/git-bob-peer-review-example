@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: [ "editor acting"]
     types:
-      - completed  # This can be 'completed', 'success', or 'failure'
+      - success  # This can be 'completed', 'success', or 'failure'
 
 jobs:
   respond:

@@ -13,7 +13,7 @@ on:
   workflow_run:
     workflows: [ "reviewer1 acting", "reviewer2 acting", "reviewer3 acting" ]
     types:
-      - completed  # This can be 'completed', 'success', or 'failure'
+      - success  # This can be 'completed', 'success', or 'failure'
 
 
 jobs:
