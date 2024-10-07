@@ -1,4 +1,4 @@
-name: git-bob acting
+name: reviewer2 acting
 
 on:
   pull_request:
