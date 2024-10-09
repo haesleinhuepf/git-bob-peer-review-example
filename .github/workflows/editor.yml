@@ -11,7 +11,7 @@ on:
   pull_request_review_comment:
     types: [ created ]
   workflow_run:
-    workflows: [ "reviewer1 acting", "reviewer2 acting", "reviewer3 acting" ]
+    workflows: [ "reviewer acting"]
     types:
       - completed
 
